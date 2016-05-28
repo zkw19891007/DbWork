@@ -14,7 +14,6 @@ import java.util.Map.Entry;
 public class DbWork {
 	
 	public static Connection getConnection(){
-		String url = "jdbc:mysql://10.118.187.12:3306/address?user=admin&password=admin&characterEncoding=utf-8";
 		Connection conn = null;
 		try{
 			Class.forName("org.gjt.mm.mysql.Driver").newInstance();
